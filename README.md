@@ -25,8 +25,10 @@
 
 ## 2.jieba分词算法
 这部分基于[jieba](https://github.com/fxsjy/jieba)中文分词组件完成文本摘要任务，产生的是抽取式摘要，旨在不改变原文的情况下，通过对原文关键词和句子的重新排序组合来生成摘要。
+
 代码如下：[jieba.ipynb](jieba.ipynb)
 
 ## 3.textrank算法
 这部分基于[textrank](https://github.com/davidadamojr/TextRank)算法来完成文本摘要任务，产生的是抽取式摘要，旨在不改变原文的情况下，抽取原文中权重更高的关键句子作为摘要。
-代码如下：[textrank_zhongwen](textrank_zhongwen.ipynb)
+
+代码如下：[textrank_zhongwen.ipynb](textrank_zhongwen.ipynb)
